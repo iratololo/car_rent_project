@@ -1,5 +1,3 @@
-import { NavLink, Link } from "react-router-dom"
-
 import Container from "../reuse/Container/Container"
 import {
   HeaderContainer,
