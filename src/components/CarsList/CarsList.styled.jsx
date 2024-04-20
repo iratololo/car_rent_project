@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
-export const HeaderContainer = styled.header`
-  padding: 20px 0px;
-  border-bottom:1px solid var(--primary-text-color);
+export const List = styled.ul`
+  display: flex;
+  flex-direction:column;
+  gap:32px;
 `;

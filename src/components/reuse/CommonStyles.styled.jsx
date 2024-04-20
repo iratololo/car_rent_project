@@ -6,6 +6,7 @@ export const CommonStyleBtn = css`
   line-height: 150%;
   border-radius: 200px;
   transition: var(--primary-transition);
+  text-align: center;
 `;
 
 export const CommonStyleMainBtn = css`

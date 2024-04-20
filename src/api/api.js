@@ -2,12 +2,12 @@ import axios from "axios";
 
 const baseURL = 'https://65ae61ad1dfbae409a74b5b0.mockapi.io/adverts';
 
-// const perPage = 4;
+// const PER_PAGE = 4;
 
 // export const getAllCars = async (page) => {
 //     const response = await axios.get(baseURL, {
 //         params: {
-//         limit: perPage,
+//         limit: PER_PAGE,
 //         page: page,
 //   },
 //     });

@@ -10,7 +10,7 @@ import './index.css';
 import { store } from './redux/store.js';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <BrowserRouter basename="/car_rent_project">
       <Provider store={store}>
         {/* <PersistGate persistor={persistor}> */}
@@ -18,5 +18,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         {/* </PersistGate> */}
       </Provider>
     </BrowserRouter>
-  </React.StrictMode>
+  // </React.StrictMode>
 );

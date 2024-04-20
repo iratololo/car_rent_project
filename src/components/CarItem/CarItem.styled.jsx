@@ -17,6 +17,17 @@ export const ImageWrapper = styled.div`
     flex: 0 0 290px;
     position: relative;
     border-radius:10px;
+    overflow: hidden;
+`;
+
+export const Image = styled.img`
+    position:absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center; 
 `;
 
 export const ContentWrapper = styled.div`
@@ -51,20 +62,6 @@ export const Description = styled.p`
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
     overflow: hidden;
-`;
-
-export const Categories = styled.div`
-    display: flex;
-    flex-wrap:wrap;
-    gap:8px;
-`;
-
-export const Category = styled.div`
-    border-radius:100px;
-    background-color: var(--primary-light);
-    padding:12px 18px;
-    color: var(--primary-dark);
-    font-weight: 500;
 `;
 
 

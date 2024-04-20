@@ -12,6 +12,15 @@ import { getAllCars } from "../../api/api";
 //     }
 // })
 
+// export const getCarsThunk = createAsyncThunk('cars/getCars', async (page, { rejectWithValue }) => {
+//     try {
+//         const { data } = await getAllCars(page);
+//     return data;
+//     } catch (error) {
+//         return rejectWithValue(error.message)
+//     }
+// })
+
 export const getCarsThunk = createAsyncThunk('cars/getCars', async (_, { rejectWithValue }) => {
     try {
         const { data } = await getAllCars();
